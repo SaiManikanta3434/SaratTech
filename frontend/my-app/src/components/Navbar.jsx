@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import React from 'react'
-import Logo from '../assets/logo.png'
+import logo from '../assets/logo.png'
 
 const navigation = [
   { name: 'About Us', href: '#' },
@@ -52,7 +52,7 @@ export default function Example() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5 group">
               <span className="sr-only">Your Company</span>
-                 <img src={Logo} alt="" className='w-auto h-14' />
+                 <img src={logo} alt="" className='w-auto h-14' />
             </a>
           </div>
           <div className="flex lg:hidden">

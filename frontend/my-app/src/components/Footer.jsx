@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/logo.png';
+import logo from '../assets/logo.png';
 
 export default function Example() {
     return (
@@ -7,7 +7,7 @@ export default function Example() {
             <div className="flex flex-col md:flex-row items-start justify-center gap-10 py-10 border-b border-gray-500/30">
                 
                 <div className="max-w-96">
-                    <img src={Logo} alt="" className='w-auto h-12' />
+                    <img src={logo} alt="" className='w-auto h-12' />
                     <p className="mt-6 text-sm text-gray-500">
                         Our expertise spans across software development, AI-powered automation, cloud solutions, digital transformation, and enterprise applications, helping organizations streamline operations, unlock insights, and scale efficiently in a digital-first world.
                     </p>
