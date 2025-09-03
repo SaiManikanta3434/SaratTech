@@ -1,5 +1,5 @@
 import React from 'react';
-import chairman from '../assets/chairman.png';
+import chairman from '../assets/Chairman.png';
 
 export default function Example() {
     return (
